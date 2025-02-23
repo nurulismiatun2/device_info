@@ -1,0 +1,11 @@
+1. buat folder virtual environtment python:
+    a. python -m venv venv
+    b. ./venv/Scripts/Activate.bat
+
+2. install library nya:
+    a. pip install -r requirements.txt
+
+3. jalanin aplikasinya
+    a. buka terminal di folder device-info
+    b. jalanin command ini :
+        - uvicorn app.main:app --host 0.0.0.0 --port 8000
