@@ -1,3 +1,4 @@
+INSTALASI :
 1. buat folder virtual environtment python:
     a. python -m venv venv
     b. ./venv/Scripts/Activate.bat
@@ -9,3 +10,8 @@
     a. buka terminal di folder device-info
     b. jalanin command ini :
         - uvicorn app.main:app --host 0.0.0.0 --port 8000
+
+Cara kerja : 
+1. Folder api itu untuk tempat endpoint nya
+2. folder service itu tempat untuk logic dari endpoint tersebut
+3. folder repositories itu untuk tempat logic yang bisa dipakai bareng bareng oleh berbagai endpoint, contohtnya logic jalanin command adb devices
